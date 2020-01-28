@@ -4,9 +4,12 @@ def roll_call_dwarves(names)
   puts "#{index + 1} #{name}"
 end
 end
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  returned_values = []
+  planeteer_calls.each do |value|
+    returned_values << value.upper
 end
 
 def long_planeteer_calls# code an argument here
