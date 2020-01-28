@@ -22,6 +22,11 @@ end
 
 def find_the_cheese(words)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if words.include?
+  i = 0 
+  while i < words.length 
+  yield(cheese_types[0])
+  i += 1 
+end
+  if words.include?("word")
   
 end
