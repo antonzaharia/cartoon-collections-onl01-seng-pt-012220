@@ -13,8 +13,11 @@ end
 
 calls = ["puff", "go", "two"]
 def long_planeteer_calls(calls)
-  calls.all? { |word| word.length <= 4 }
-
+  if calls.all? { |word| word.length <= 4 }
+FALSE
+else
+  TRUE
+end
 end
 
 def find_the_cheese# code an argument here
