@@ -22,7 +22,13 @@ end
 
 def find_the_cheese(words)
   cheese_types = ["cheddar", "gouda", "camembert"]
- words.any? { |i| cheese_types.include? i }
+ 
+ cheese_types.each do |word|
+ if words.include? word
+ return word
+ else 
+ return nil
  end
-end
+ end
+ end
 
