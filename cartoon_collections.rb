@@ -13,7 +13,7 @@ end
 
 calls = ["puff", "go", "two"]
 def long_planeteer_calls(calls)
-  if calls.all? { |s| s.size < 4 }
+  if calls.all? { |s| s.length < 4 }
     false
 else
   TRUE
