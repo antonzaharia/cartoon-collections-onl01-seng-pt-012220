@@ -9,7 +9,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   returned_values = []
   planeteer_calls.each do |value|
-    returned_values << value.upper
+    returned_values << value.upcase
   end
 end
 
