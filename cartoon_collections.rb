@@ -13,7 +13,7 @@ end
 
 calls = ["puff", "go", "two"]
 def long_planeteer_calls(calls)
-  calls.all? { |s| s.length < 4 }
+  calls.all? { |word| word.length <= 4 }
 
 end
 
