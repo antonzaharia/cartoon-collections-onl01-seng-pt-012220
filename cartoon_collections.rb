@@ -31,5 +31,5 @@ end
     return word
 else
   return nil
-  
+end
 end
