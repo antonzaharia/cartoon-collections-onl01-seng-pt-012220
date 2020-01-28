@@ -14,9 +14,9 @@ end
 calls = ["puff", "go", "two"]
 def long_planeteer_calls(calls)
   if calls.each { |word| word.length > 4 }
-    return true
-  else
     return false
+  else
+    return true
     end
 end
 
