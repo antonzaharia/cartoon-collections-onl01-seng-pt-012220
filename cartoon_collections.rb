@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
   returned_values = []
   planeteer_calls.each do |value|
     returned_values << value.upper
+  end
 end
 
 def long_planeteer_calls# code an argument here
