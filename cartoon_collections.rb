@@ -5,11 +5,9 @@ def roll_call_dwarves(names)
 end
 end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-
 def summon_captain_planet(planeteer_calls)
-  returned_values = []
-  planeteer_calls.each do |value|
-    returned_values << value.upcase
+  planeteer_calls.map do |word|
+    word.upcase + "!"
   end
 end
 
