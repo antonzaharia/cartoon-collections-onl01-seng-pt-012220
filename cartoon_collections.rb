@@ -22,15 +22,7 @@ end
 
 def find_the_cheese(words)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while i < words.length 
-  word = cheese_types[0]
-  i += 1 
-end
-  if words.include?("word")
-    return word
-else
-  return nil
-end
+ words.any? { |i| cheese_types.include? i }
+ end
 end
 
